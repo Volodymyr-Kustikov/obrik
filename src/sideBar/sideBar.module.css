@@ -1,0 +1,27 @@
+.sideBar{
+  padding: 0 70px 0 0;
+}
+
+.list {
+  list-style-type: none
+}
+
+.punkt {
+  transition: all 1s smooth;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: #cd0909;
+  }
+}
+
+.img {
+  background-image: url(../../public/images/punktik.png);
+  height: 24px;
+  width: 24px;
+  background-color: #1f0f0f;
+}
