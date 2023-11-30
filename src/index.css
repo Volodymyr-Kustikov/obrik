@@ -1,0 +1,13 @@
+.roles_table{
+  text-align: center;
+  border-spacing: 2px;
+
+}
+
+.roles_table_body{
+
+}
+
+.roles_table_body tr:nth-child(odd){
+  background-color: #d5d5d5
+}
