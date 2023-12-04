@@ -1,0 +1,17 @@
+.img {
+  background-image: url(../../../public/images/Pin-black.png);
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+}
+
+.punkt {
+  text-wrap: nowrap;
+  color: #3B3F61;
+}
+
+.block {
+  display: flex;
+  margin-bottom: 16px;
+}
+

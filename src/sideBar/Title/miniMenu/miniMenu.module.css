@@ -1,0 +1,10 @@
+.downList {
+  display: block;
+  
+    list-style-type: none;
+  
+}
+
+button {
+  margin-left: 10px;
+}

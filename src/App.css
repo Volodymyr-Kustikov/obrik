@@ -3,10 +3,8 @@
   grid-template-areas: 
     "logo navbar"
     "sidebar content"; */
-    font-weight: 400px;
-
-  font-size: 24px;
-  line-height: 50px;
+   
+ 
   font-family: 'Montserrat', sans-serif;
   /* grid-template-rows: 2fr 4fr;
   grid-auto-columns: 2fr 6fr; */
