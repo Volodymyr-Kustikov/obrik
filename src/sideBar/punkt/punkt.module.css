@@ -1,0 +1,40 @@
+.punkt {
+  transition: all 1s smooth;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: #cd0909;
+  }
+}
+
+.navigationLink {
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+}
+
+.smallList {
+
+}
+
+.img {
+  background-image: url(../../../public/images/Pin-black.png);
+  height: 24px;
+  width: 24px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.underList {
+  font-size: 18px;
+  list-style-type: none
+}
+
+.smallLink {
+  text-wrap: nowrap;
+}

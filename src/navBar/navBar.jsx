@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
 import classes from './navBar.module.css'
 
-export const NavBar = ({ searchTerm, handleSearch, highlightText }) => {
-  
+export const NavBar = () => {
+
   return (
     <div className={classes.navBar}>
       <form>
-        <input style={{float:'right'}} type="text"
-      placeholder="Пошук..."
-      value={searchTerm}
-      onChange={handleSearch}/>
+        <input type="text" placeholder='Orest-s search Bar' />
       </form>
     </div>
   )

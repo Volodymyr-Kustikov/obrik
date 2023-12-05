@@ -1,32 +1,8 @@
 .sideBar{
   padding: 0 70px 0 0;
-  position: fixed;
-
-}
-
-a {
-  text-decoration: none;
 }
 
 .list {
-  list-style-type: none;
+  list-style-type: none
 }
 
-.punkt {
-  transition: all 1s smooth;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.3s;
-  text-decoration: none;
-  color: inherit;
-  white-space: nowrap;
-
-  &:hover {
-    border-color: #cd0909;
-  }
-}
-
-.img {
-  height: 24px;
-  width: 24px;
-  background-color: #1f0f0f;
-}
